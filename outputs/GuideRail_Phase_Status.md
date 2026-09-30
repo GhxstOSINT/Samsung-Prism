@@ -40,7 +40,7 @@
 **Status: Complete drafts, ready for team details**
 
 - Submission presentation, research report, AI disclosure, demo script, checklist, benchmark output, and source package are included.
-- Replace the college/team placeholders and add the final repository URL, video URL, and release tag before submission.
+- Repository and release tag are complete. Replace the college/team placeholders and add the final video URL before submission.
 
 ## Phase 6 — Organizer integration and official evaluation
 
@@ -51,6 +51,6 @@ The software path is ready, but a final official competition model cannot be cla
 1. Official Track 2 starter dataset and exact deeplink catalog.
 2. An approved OpenAI-compatible model endpoint, model name, and API credential.
 3. Team and institution details.
-4. Final hosted repository, release tag, and demo video.
+4. Final demo video.
 
 Until the model endpoint is configured, the live prototype intentionally uses the grounded deterministic fallback. This is a safe operational mode, not a simulated LLM response.

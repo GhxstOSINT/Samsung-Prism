@@ -25,7 +25,7 @@
 - [ ] Run and report the official held-out evaluation.
 - [ ] Replace synthetic metrics in the deck where official results are expected.
 - [ ] Verify and sign the AI disclosure.
-- [ ] Publish or share the GitHub repository and add its URL.
+- [x] Publish the GitHub repository: https://github.com/GhxstOSINT/Samsung-Prism
 - [ ] Record one unedited demonstration video of five minutes or less and add its URL.
-- [ ] Create release tag `PRISM_GENAI_HACKATHON_Y2026`.
+- [x] Create release tag `PRISM_GENAI_HACKATHON_Y2026`.
 - [ ] Perform a final rule and link review before the 25 September 2026 deadline.

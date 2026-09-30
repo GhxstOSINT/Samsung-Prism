@@ -2,6 +2,8 @@
 
 GuideRail is a complete, configurable Track 2 application foundation for the Samsung PRISM Y2026 GenAI Hackathon. It converts vague or multi-issue device complaints into ordered troubleshooting JSON and maps eligible actions to exact allow-listed Settings deeplinks.
 
+Repository: https://github.com/GhxstOSINT/Samsung-Prism
+
 The application supports two runtime modes:
 
 1. **Two-stage model mode** — a configured OpenAI-compatible model first structures issues and query variations, then proposes a plan using only retrieved evidence and candidate catalog entries.
