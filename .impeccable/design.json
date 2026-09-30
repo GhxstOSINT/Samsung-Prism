@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-30T18:18:13.1758294+05:30",
+  "title": "Design System: GuideRail",
+  "extensions": {
+    "colorMeta": {
+      "paper": { "role": "neutral", "displayName": "Pale Repair Paper", "canonical": "#f3efe6", "tonalRamp": ["oklch(18% 0.014 83)", "oklch(29% 0.014 83)", "oklch(41% 0.014 83)", "oklch(54% 0.014 83)", "oklch(66% 0.014 83)", "oklch(78% 0.014 83)", "oklch(89% 0.014 83)", "oklch(95% 0.014 83)"] },
+      "sheet": { "role": "neutral", "displayName": "Worksheet Sheet", "canonical": "#fffdf8", "tonalRamp": ["oklch(18% 0.008 85)", "oklch(29% 0.008 85)", "oklch(41% 0.008 85)", "oklch(54% 0.008 85)", "oklch(66% 0.008 85)", "oklch(78% 0.008 85)", "oklch(89% 0.008 85)", "oklch(98% 0.008 85)"] },
+      "ink": { "role": "neutral", "displayName": "Carbon Ink", "canonical": "#171a1f", "tonalRamp": ["oklch(15% 0.012 255)", "oklch(27% 0.012 255)", "oklch(39% 0.012 255)", "oklch(51% 0.012 255)", "oklch(63% 0.012 255)", "oklch(75% 0.012 255)", "oklch(87% 0.012 255)", "oklch(95% 0.012 255)"] },
+      "muted-ink": { "role": "neutral", "displayName": "Graphite Note", "canonical": "#5f635f", "tonalRamp": ["oklch(15% 0.01 150)", "oklch(27% 0.01 150)", "oklch(39% 0.01 150)", "oklch(51% 0.01 150)", "oklch(63% 0.01 150)", "oklch(75% 0.01 150)", "oklch(87% 0.01 150)", "oklch(95% 0.01 150)"] },
+      "rule": { "role": "neutral", "displayName": "Pencil Rule", "canonical": "#c9c3b8", "tonalRamp": ["oklch(15% 0.018 75)", "oklch(27% 0.018 75)", "oklch(39% 0.018 75)", "oklch(51% 0.018 75)", "oklch(63% 0.018 75)", "oklch(75% 0.018 75)", "oklch(87% 0.018 75)", "oklch(95% 0.018 75)"] },
+      "rule-strong": { "role": "neutral", "displayName": "Dark Rule", "canonical": "#6f695f", "tonalRamp": ["oklch(15% 0.02 70)", "oklch(27% 0.02 70)", "oklch(39% 0.02 70)", "oklch(51% 0.02 70)", "oklch(63% 0.02 70)", "oklch(75% 0.02 70)", "oklch(87% 0.02 70)", "oklch(95% 0.02 70)"] },
+      "action-cobalt": { "role": "primary", "displayName": "Action Cobalt", "canonical": "#1246d8", "tonalRamp": ["oklch(15% 0.18 264)", "oklch(27% 0.18 264)", "oklch(39% 0.18 264)", "oklch(51% 0.18 264)", "oklch(63% 0.18 264)", "oklch(75% 0.18 264)", "oklch(87% 0.12 264)", "oklch(95% 0.05 264)"] },
+      "action-cobalt-dark": { "role": "primary", "displayName": "Deep Action Cobalt", "canonical": "#0b2f9a", "tonalRamp": ["oklch(15% 0.15 264)", "oklch(27% 0.15 264)", "oklch(39% 0.15 264)", "oklch(51% 0.15 264)", "oklch(63% 0.15 264)", "oklch(75% 0.15 264)", "oklch(87% 0.1 264)", "oklch(95% 0.04 264)"] },
+      "action-wash": { "role": "primary", "displayName": "Active Wash", "canonical": "#eef2ff", "tonalRamp": ["oklch(15% 0.03 264)", "oklch(27% 0.03 264)", "oklch(39% 0.03 264)", "oklch(51% 0.03 264)", "oklch(63% 0.03 264)", "oklch(75% 0.03 264)", "oklch(87% 0.03 264)", "oklch(95% 0.03 264)"] },
+      "complete-wash": { "role": "neutral", "displayName": "Completed Wash", "canonical": "#f7f5ee", "tonalRamp": ["oklch(15% 0.012 80)", "oklch(27% 0.012 80)", "oklch(39% 0.012 80)", "oklch(51% 0.012 80)", "oklch(63% 0.012 80)", "oklch(75% 0.012 80)", "oklch(87% 0.012 80)", "oklch(95% 0.012 80)"] },
+      "verified-green": { "role": "secondary", "displayName": "Verified Deeplink Green", "canonical": "#0d6a4b", "tonalRamp": ["oklch(15% 0.09 160)", "oklch(27% 0.09 160)", "oklch(39% 0.09 160)", "oklch(51% 0.09 160)", "oklch(63% 0.09 160)", "oklch(75% 0.09 160)", "oklch(87% 0.06 160)", "oklch(95% 0.025 160)"] },
+      "warning-umber": { "role": "tertiary", "displayName": "Warning Umber", "canonical": "#8a4b09", "tonalRamp": ["oklch(15% 0.09 65)", "oklch(27% 0.09 65)", "oklch(39% 0.09 65)", "oklch(51% 0.09 65)", "oklch(63% 0.09 65)", "oklch(75% 0.09 65)", "oklch(87% 0.06 65)", "oklch(95% 0.025 65)"] },
+      "error-red": { "role": "tertiary", "displayName": "Failure Red", "canonical": "#9f1d1d", "tonalRamp": ["oklch(15% 0.13 28)", "oklch(27% 0.13 28)", "oklch(39% 0.13 28)", "oklch(51% 0.13 28)", "oklch(63% 0.13 28)", "oklch(75% 0.13 28)", "oklch(87% 0.08 28)", "oklch(95% 0.03 28)"] },
+      "focus-orange": { "role": "tertiary", "displayName": "Focus Orange", "canonical": "#e46c1c", "tonalRamp": ["oklch(15% 0.13 48)", "oklch(27% 0.13 48)", "oklch(39% 0.13 48)", "oklch(51% 0.13 48)", "oklch(63% 0.13 48)", "oklch(75% 0.13 48)", "oklch(87% 0.08 48)", "oklch(95% 0.03 48)"] },
+      "selection-blue": { "role": "primary", "displayName": "Selection Blue", "canonical": "#c9d6ff", "tonalRamp": ["oklch(15% 0.07 264)", "oklch(27% 0.07 264)", "oklch(39% 0.07 264)", "oklch(51% 0.07 264)", "oklch(63% 0.07 264)", "oklch(75% 0.07 264)", "oklch(87% 0.07 264)", "oklch(95% 0.04 264)"] },
+      "code-surface": { "role": "neutral", "displayName": "Code Surface", "canonical": "#20242a", "tonalRamp": ["oklch(15% 0.012 255)", "oklch(27% 0.012 255)", "oklch(39% 0.012 255)", "oklch(51% 0.012 255)", "oklch(63% 0.012 255)", "oklch(75% 0.012 255)", "oklch(87% 0.012 255)", "oklch(95% 0.012 255)"] },
+      "code-ink": { "role": "neutral", "displayName": "Code Ink", "canonical": "#eff3f6", "tonalRamp": ["oklch(15% 0.008 245)", "oklch(27% 0.008 245)", "oklch(39% 0.008 245)", "oklch(51% 0.008 245)", "oklch(63% 0.008 245)", "oklch(75% 0.008 245)", "oklch(87% 0.008 245)", "oklch(95% 0.008 245)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Editorial Display", "purpose": "The page thesis and large evidence statements." },
+      "headline": { "displayName": "Worksheet Headline", "purpose": "Major worksheet section headings." },
+      "title": { "displayName": "Action Title", "purpose": "Named troubleshooting actions and local headings." },
+      "body": { "displayName": "Operational Body", "purpose": "Instructions, explanations, and controls." },
+      "label": { "displayName": "Evidence Label", "purpose": "Metadata, categories, and result summaries." },
+      "mono": { "displayName": "Machine Evidence", "purpose": "Raw JSON, counters, and technical traces." }
+    },
+    "shadows": [
+      { "name": "worksheet-lift", "value": "0 12px 32px rgba(37, 31, 21, .09)", "purpose": "Ambient lift for the stage rail and complaint-to-plan worksheet only." },
+      { "name": "action-lift", "value": "0 5px 16px rgba(18, 70, 216, .25)", "purpose": "Resting affordance for the primary action." },
+      { "name": "action-hover", "value": "0 7px 20px rgba(18, 70, 216, .32)", "purpose": "Hover response for the primary action." },
+      { "name": "action-pressed", "value": "0 3px 10px rgba(18, 70, 216, .24)", "purpose": "Compressed lift while the primary action is pressed." }
+    ],
+    "motion": [
+      { "name": "action-response", "value": "120ms ease-out", "purpose": "Transform, background, and shadow transitions for the primary action." },
+      { "name": "stage-sequence", "value": "110ms per stage", "purpose": "Short progression cue through Retrieve, Resolve, and Validate." },
+      { "name": "reduced-motion", "value": ".01ms", "purpose": "Effectively removes all transitions and animations when reduced motion is requested." }
+    ],
+    "breakpoints": [
+      { "name": "stacked-workspace", "value": "900px" },
+      { "name": "compact-worksheet", "value": "560px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Plan Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The full-width cobalt action that submits a complaint for validation.",
+      "html": "<button class=\"ds-btn-primary\"><span>Build validated plan</span><span aria-hidden=\"true\">→</span></button>",
+      "css": ".ds-btn-primary{width:100%;min-height:54px;display:flex;align-items:center;justify-content:space-between;border:0;border-radius:9px;padding:0 1.1rem;background:var(--action,#1246d8);color:#fff;font:750 1rem/1.55 Aptos,\"Segoe UI\",sans-serif;box-shadow:0 5px 16px rgba(18,70,216,.25);transition:transform 120ms ease-out,background 120ms ease-out,box-shadow 120ms ease-out;cursor:pointer}.ds-btn-primary:hover{background:var(--action-dark,#0b2f9a);box-shadow:0 7px 20px rgba(18,70,216,.32)}.ds-btn-primary:active{transform:translateY(2px);box-shadow:0 3px 10px rgba(18,70,216,.24)}.ds-btn-primary:focus-visible{outline:3px solid #e46c1c;outline-offset:3px}"
+    },
+    {
+      "name": "Example Complaint Chip",
+      "kind": "chip",
+      "refersTo": "chip-example",
+      "description": "A neutral pill that inserts a synthetic example complaint.",
+      "html": "<button class=\"ds-chip-example\">Battery drain</button>",
+      "css": ".ds-chip-example{min-height:44px;border:1px solid var(--line,#c9c3b8);border-radius:999px;background:transparent;color:var(--muted,#5f635f);padding:.55rem .75rem;font:400 .78rem/1.4 Aptos,\"Segoe UI\",sans-serif;cursor:pointer}.ds-chip-example:hover{border-color:var(--action,#1246d8);color:var(--action-dark,#0b2f9a)}.ds-chip-example:focus-visible{outline:3px solid #e46c1c;outline-offset:3px}"
+    },
+    {
+      "name": "Complaint Field",
+      "kind": "input",
+      "refersTo": "input-complaint",
+      "description": "The generous text area where a vague device complaint enters the system.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-complaint\">Describe the device problem</label><textarea class=\"ds-complaint\" id=\"ds-complaint\">Screen flickers and the battery dies fast</textarea>",
+      "css": ".ds-field-label{display:block;margin-bottom:.6rem;color:var(--ink,#171a1f);font:700 1rem/1.55 Aptos,\"Segoe UI\",sans-serif}.ds-complaint{box-sizing:border-box;width:100%;min-height:142px;resize:vertical;border:1px solid var(--line-strong,#6f695f);border-radius:8px;padding:1rem;background:#fff;color:var(--ink,#171a1f);caret-color:var(--action,#1246d8);font:400 1rem/1.55 Aptos,\"Segoe UI\",sans-serif}.ds-complaint:focus{border-color:var(--action,#1246d8)}.ds-complaint:focus-visible{outline:3px solid #e46c1c;outline-offset:3px}"
+    },
+    {
+      "name": "Process Stage Rail",
+      "kind": "custom",
+      "refersTo": "stage-active",
+      "description": "The signature Enrich, Retrieve, Resolve, Validate sequence with explicit active and completed states.",
+      "html": "<div class=\"ds-stage-rail\" aria-label=\"Processing stages\"><div class=\"ds-stage ds-complete\"><b>01</b><span>Enrich</span><small>Normalize</small></div><div class=\"ds-stage ds-active\"><b>02</b><span>Retrieve</span><small>Ground</small></div><div class=\"ds-stage\"><b>03</b><span>Resolve</span><small>Match</small></div><div class=\"ds-stage\"><b>04</b><span>Validate</span><small>Enforce</small></div></div>",
+      "css": ".ds-stage-rail{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line-strong,#6f695f);background:var(--sheet,#fffdf8);box-shadow:0 12px 32px rgba(37,31,21,.09);color:var(--ink,#171a1f);font-family:Aptos,\"Segoe UI\",sans-serif}.ds-stage{min-height:92px;padding:1rem;display:grid;grid-template-columns:auto 1fr;gap:.2rem .7rem;align-content:center;border-right:1px solid var(--line,#c9c3b8)}.ds-stage:last-child{border-right:0}.ds-stage b{grid-row:1/span 2;color:var(--line-strong,#6f695f);font-size:.72rem}.ds-stage span{font-weight:750}.ds-stage small{color:var(--muted,#5f635f)}.ds-stage.ds-active{background:#eef2ff}.ds-stage.ds-active b{color:var(--action,#1246d8)}.ds-stage.ds-complete{background:#f7f5ee}.ds-stage.ds-complete b{color:var(--action-dark,#0b2f9a)}"
+    },
+    {
+      "name": "Complaint-to-Plan Worksheet",
+      "kind": "card",
+      "refersTo": "panel-workspace",
+      "description": "The square-edged split surface that keeps complaint intake directly beside the validated plan.",
+      "html": "<section class=\"ds-workspace\"><div class=\"ds-intake\"><h2>Complaint intake</h2><p>Describe the device problem.</p></div><div class=\"ds-output\"><h2>Validated plan</h2><p>Grounded actions appear here.</p></div></section>",
+      "css": ".ds-workspace{display:grid;grid-template-columns:minmax(180px,.7fr) minmax(0,1.3fr);border:1px solid var(--line-strong,#6f695f);background:var(--sheet,#fffdf8);box-shadow:0 12px 32px rgba(37,31,21,.09);color:var(--ink,#171a1f)}.ds-intake,.ds-output{padding:1.4rem}.ds-intake{border-right:1px solid var(--line-strong,#6f695f)}.ds-workspace h2{margin:0 0 .75rem;font:700 1.6rem/1.1 Georgia,serif;letter-spacing:-.02em}.ds-workspace p{margin:0;color:var(--muted,#5f635f);font:400 .9rem/1.55 Aptos,\"Segoe UI\",sans-serif}"
+    },
+    {
+      "name": "Verified Deeplink",
+      "kind": "custom",
+      "description": "The only component permitted to use verification green.",
+      "html": "<div class=\"ds-deeplink\"><b>Verified deeplink</b><span>samsung://settings/display</span></div>",
+      "css": ".ds-deeplink{display:flex;gap:.6rem;align-items:baseline;color:var(--verified,#0d6a4b);font:400 .8rem/1.55 Aptos,\"Segoe UI\",sans-serif;overflow-wrap:anywhere}.ds-deeplink b{white-space:nowrap}.ds-deeplink:focus-within{outline:3px solid #e46c1c;outline-offset:3px}"
+    },
+    {
+      "name": "Top Navigation",
+      "kind": "nav",
+      "description": "A restrained sticky paper bar with editorial identity and quiet section links.",
+      "html": "<nav class=\"ds-nav\"><strong>GuideRail</strong><div><a href=\"#console\">Console</a><a href=\"#evidence\">Evidence</a><a href=\"#health\">API health</a></div></nav>",
+      "css": ".ds-nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:2rem;padding:0 1.25rem;border-bottom:1px solid var(--line,#c9c3b8);background:rgba(243,239,230,.96);color:var(--ink,#171a1f)}.ds-nav strong{font:700 1.38rem/1 Georgia,serif;letter-spacing:-.025em}.ds-nav div{display:flex;gap:1.25rem}.ds-nav a{color:inherit;text-decoration:none;font:400 .88rem/1.55 Aptos,\"Segoe UI\",sans-serif}.ds-nav a:hover{text-decoration:underline;text-underline-offset:.24em}.ds-nav a:focus-visible{outline:3px solid #e46c1c;outline-offset:3px}"
+    },
+    {
+      "name": "API Response Pane",
+      "kind": "custom",
+      "description": "A dark monospace surface that visually separates raw machine evidence from the readable plan.",
+      "html": "<pre class=\"ds-code\" tabindex=\"0\">{\n  \"validated\": true,\n  \"cache_hit\": false\n}</pre>",
+      "css": ".ds-code{max-height:430px;overflow:auto;margin:0;padding:1rem;border-radius:8px;background:#20242a;color:#eff3f6;font:400 .78rem/1.55 \"Cascadia Mono\",Consolas,monospace;scrollbar-color:#657081 #20242a}.ds-code:focus-visible{outline:3px solid #e46c1c;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Repair-Center Diagnostic Worksheet",
+    "overview": "GuideRail should feel like a deliberate paper instrument used by a careful technician: calm, legible, inspectable, and built to make cause and effect visible. A warm pale paper surrounds a cleaner worksheet surface; strong rules, tabular measurements, and an editorial serif hierarchy give the interface authority without imitating proprietary device UI.\n\nThe core visual mechanism is complaint-to-plan: complaint intake remains on the left, the validated plan remains on the right, and evidence plus hard guardrails stay in view. Enrich, Retrieve, Resolve, and Validate form the signature process rail, making the deterministic safety envelope visible before and after execution.",
+    "keyCharacteristics": [
+      "Warm paper and clean sheet surfaces with structural rules.",
+      "Editorial serif hierarchy over a restrained operational sans body.",
+      "Action-only cobalt, with green reserved exclusively for verified deeplinks.",
+      "Visible evidence, guardrails, stage state, latency, and execution trace.",
+      "Responsive compaction that preserves the complaint-to-plan mechanism."
+    ],
+    "rules": [
+      { "name": "The Action-Only Cobalt Rule", "body": "Cobalt identifies actions, interaction states, and process progression; it is not decorative color.", "section": "colors" },
+      { "name": "The Verified-Green Rule", "body": "Green is exclusive to exact, catalog-validated deeplinks. Never use it for generic success, service readiness, or completed stages.", "section": "colors" },
+      { "name": "The Paper-First Rule", "body": "Preserve the warm paper and sheet relationship; do not replace it with a generic cool-gray application shell.", "section": "colors" },
+      { "name": "The Editorial-Over-Operational Rule", "body": "Use serif for thesis and section hierarchy; use sans for controls, evidence, and instructions.", "section": "typography" },
+      { "name": "The Machine-Evidence Rule", "body": "Monospace belongs to raw API output and compact counters, never to primary product messaging.", "section": "typography" },
+      { "name": "The Mechanism-Preservation Rule", "body": "Responsive changes may compact or stack the worksheet, but complaint intake must still lead directly into the validated plan and its evidence.", "section": "layout" },
+      { "name": "The Structural-Depth Rule", "body": "Prefer tone and rules to shadow; shadow is reserved for the worksheet and the main action.", "section": "elevation" },
+      { "name": "The Worksheet-Edge Rule", "body": "Do not turn the main stage rail, workspace, result rows, or evidence rows into floating rounded cards.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do keep the complaint intake and validated plan visibly connected as one worksheet.",
+      "Do expose stage progress, source-grounded evidence, action order, deeplink status, cache path, and latency.",
+      "Do use cobalt only where the user can act or where processing state advances.",
+      "Do keep guardrails and synthetic-data disclosure visible, calm, and unambiguous.",
+      "Do preserve keyboard focus, 44px touch targets, high contrast, and reduced-motion behavior."
+    ],
+    "donts": [
+      "Don't use Verified Green for general success, healthy service state, or completed process stages.",
+      "Don't introduce gradients, glass effects, ornamental illustration, or a field of rounded cards.",
+      "Don't hide evidence or guardrails to make the interface appear simpler.",
+      "Don't imitate proprietary Samsung screens or use visual language that implies endorsement.",
+      "Don't let responsive layouts separate the complaint from the resulting plan or remove the four-stage process."
+    ]
+  }
+}

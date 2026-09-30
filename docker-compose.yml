@@ -1,0 +1,14 @@
+services:
+  guiderail:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      HOST: 0.0.0.0
+      PORT: 8000
+    volumes:
+      - ./data_official:/official_data:ro
+    restart: unless-stopped

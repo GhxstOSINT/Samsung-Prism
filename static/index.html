@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3efe6">
+  <title>GuideRail Troubleshooting Console</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <a class="skip" href="#workspace">Skip to troubleshooting workspace</a>
+  <header class="topbar">
+    <div class="wordmark" aria-label="GuideRail home">GuideRail</div>
+    <div class="system-state"><span class="state-dot" aria-hidden="true"></span><span id="healthLabel">Checking service</span></div>
+    <nav aria-label="Prototype sections">
+      <a href="#workspace">Console</a>
+      <a href="#evidence">Evidence</a>
+      <a href="/health">API health</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div>
+        <h1 id="page-title">A complaint enters. A verified fix leaves.</h1>
+        <p>Track 2 prototype for catalog-grounded, one-tap device troubleshooting. Every step exposes its source record, action order, deeplink match, cache path, and latency.</p>
+      </div>
+      <dl class="contract" aria-label="Runtime contract">
+        <div><dt>Cache target</dt><dd>&le; 300 ms P95</dd></div>
+        <div><dt>Cold target</dt><dd>&le; 8 s P95</dd></div>
+        <div><dt>Output</dt><dd>Strict JSON</dd></div>
+      </dl>
+    </section>
+
+    <section class="stage-rail" aria-label="Processing stages">
+      <div class="stage active"><b>01</b><span>Enrich</span><small>Normalize the complaint</small></div>
+      <div class="stage"><b>02</b><span>Retrieve</span><small>Ground against references</small></div>
+      <div class="stage"><b>03</b><span>Resolve</span><small>Match exact screens</small></div>
+      <div class="stage"><b>04</b><span>Validate</span><small>Enforce every rule</small></div>
+    </section>
+
+    <section id="workspace" class="workspace" aria-labelledby="workspace-title">
+      <div class="intake">
+        <div class="section-heading">
+          <h2 id="workspace-title">Complaint intake</h2>
+          <span id="dataLabel">Checking data source</span>
+        </div>
+        <form id="troubleshootForm">
+          <label for="query">Describe the device problem</label>
+          <textarea id="query" name="query" rows="5" required minlength="3">Screen flickers and the battery dies fast</textarea>
+          <details class="diagnostic-input">
+            <summary>Add optional SIIS diagnostic response</summary>
+            <label for="siis">Diagnostic text</label>
+            <textarea id="siis" name="siis" rows="3" maxlength="30000" placeholder="Paste the supplied SIIS response here. It is sent only with this troubleshooting request."></textarea>
+          </details>
+          <div class="examples" aria-label="Example complaints">
+            <button type="button" data-query="My battery dies too fast">Battery drain</button>
+            <button type="button" data-query="My phone became slow after updating">Slow after update</button>
+            <button type="button" data-query="Swiping moves the wrong way after installing an app">Swipe navigation</button>
+            <button type="button" data-query="My camera photos are blurry">Camera blur</button>
+          </div>
+          <button id="runButton" class="primary" type="submit">
+            <span>Build validated plan</span>
+            <span aria-hidden="true">&#8594;</span>
+          </button>
+          <p id="formStatus" class="form-status" role="status" aria-live="polite">Ready for a complaint.</p>
+        </form>
+
+        <div class="guardrails">
+          <h3>Hard guardrails</h3>
+          <ul>
+            <li>No external URLs or markdown</li>
+            <li>No invented steps or deeplinks</li>
+            <li>Disruptive actions stay last</li>
+            <li>Invalid plans fail closed</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="output" aria-live="polite">
+        <div class="section-heading">
+          <h2>Validated plan</h2>
+          <button id="copyButton" type="button" disabled>Copy JSON</button>
+        </div>
+        <div id="emptyState" class="empty-state">
+          <div class="empty-mark" aria-hidden="true">GR</div>
+          <p>Run a complaint to see the normalization trace, retrieved evidence, ordered actions, catalog deeplinks, and API JSON.</p>
+        </div>
+        <div id="result" hidden>
+          <div class="result-summary">
+            <div><span>Issue</span><strong id="resultTitle">-</strong></div>
+            <div><span>Confidence</span><strong id="resultScore">-</strong></div>
+            <div><span>Path</span><strong id="resultPath">-</strong></div>
+            <div><span>Latency</span><strong id="resultLatency">-</strong></div>
+          </div>
+          <ol id="actionList" class="action-list"></ol>
+          <details class="trace" open>
+            <summary>Execution trace</summary>
+            <ol id="traceList"></ol>
+          </details>
+          <details class="json-view">
+            <summary>API response JSON</summary>
+            <pre id="jsonOutput" tabindex="0"></pre>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="evidence" class="evidence" aria-labelledby="evidence-title">
+      <div>
+        <h2 id="evidence-title">Why the system is built this way</h2>
+        <p>The model may propose structure, but retrieval and validation decide what can leave the API. That boundary keeps a fluent answer from becoming an unsafe answer.</p>
+      </div>
+      <dl>
+        <div><dt>Grounding</dt><dd>Reference records supply every troubleshooting instruction.</dd></div>
+        <div><dt>Resolution</dt><dd>Only exact masked URIs from the deeplink catalog are returned.</dd></div>
+        <div><dt>Cache admission</dt><dd>Only plans that already passed the full validator enter the fast path.</dd></div>
+        <div><dt>Fallback</dt><dd>Low-confidence complaints return a named failure instead of guessed steps.</dd></div>
+      </dl>
+    </section>
+  </main>
+
+  <footer>
+    <span>GuideRail engine v1.0</span>
+    <span>Samsung PRISM Theme 2 prototype</span>
+  </footer>
+  <script src="/app.js"></script>
+</body>
+</html>

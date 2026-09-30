@@ -1,0 +1,17 @@
+[
+  {"id":"battery_usage","deeplink":"bixby://masked/act/battery_usage","description":"Open battery usage details","message":"Review apps using the most battery","classes":["Settings","Battery"],"originalType":"settings"},
+  {"id":"power_saving","deeplink":"bixby://masked/act/power_saving","description":"Open power saving settings","message":"Choose a suitable power saving mode","classes":["Settings","Battery"],"originalType":"settings"},
+  {"id":"display_brightness","deeplink":"bixby://masked/act/display_brightness","description":"Open display brightness settings","message":"Adjust adaptive brightness and screen brightness","classes":["Settings","Display"],"originalType":"settings"},
+  {"id":"motion_smoothness","deeplink":"bixby://masked/act/motion_smoothness","description":"Open motion smoothness settings","message":"Choose a display refresh mode","classes":["Settings","Display"],"originalType":"settings"},
+  {"id":"camera_settings","deeplink":"bixby://masked/act/camera_settings","description":"Open camera settings","message":"Review camera optimization settings","classes":["Camera","Settings"],"originalType":"settings"},
+  {"id":"device_care","deeplink":"bixby://masked/act/device_care","description":"Open Device care","message":"Review device optimization status","classes":["Settings","DeviceCare"],"originalType":"settings"},
+  {"id":"memory_settings","deeplink":"bixby://masked/act/memory_settings","description":"Open memory settings","message":"Review memory use and clean safely","classes":["Settings","DeviceCare"],"originalType":"settings"},
+  {"id":"wifi_settings","deeplink":"bixby://masked/act/wifi_settings","description":"Open Wi-Fi settings","message":"Review the active Wi-Fi network","classes":["Settings","Connections"],"originalType":"settings"},
+  {"id":"intelligent_wifi","deeplink":"bixby://masked/act/intelligent_wifi","description":"Open Intelligent Wi-Fi settings","message":"Review automatic connection options","classes":["Settings","Connections"],"originalType":"settings"},
+  {"id":"bluetooth_settings","deeplink":"bixby://masked/act/bluetooth_settings","description":"Open Bluetooth settings","message":"Review paired Bluetooth devices","classes":["Settings","Connections"],"originalType":"settings"},
+  {"id":"thermal_device_care","deeplink":"bixby://masked/act/thermal_device_care","description":"Open Device care diagnostics","message":"Review temperature-related device status","classes":["Settings","DeviceCare"],"originalType":"settings"},
+  {"id":"notification_settings","deeplink":"bixby://masked/act/notification_settings","description":"Open app notification settings","message":"Choose which notifications may appear","classes":["Settings","Notifications"],"originalType":"settings"},
+  {"id":"app_info","deeplink":"bixby://masked/act/app_info","description":"Open application information","message":"Review storage and application settings","classes":["Settings","Apps"],"originalType":"settings"},
+  {"id":"touch_sensitivity","deeplink":"bixby://masked/act/touch_sensitivity","description":"Open touch sensitivity settings","message":"Adjust screen touch sensitivity","classes":["Settings","Display"],"originalType":"settings"},
+  {"id":"navigation_bar","deeplink":"bixby://masked/act/navigation_bar","description":"Open navigation bar settings","message":"Choose buttons or swipe gestures","classes":["Settings","Display"],"originalType":"settings"}
+]

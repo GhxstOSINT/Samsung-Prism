@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+work/
+.impeccable/review/
+outputs/*.json
+!outputs/benchmark_results.json
+outputs/CollegeName_TeamName_Submission.pptx
+outputs/CollegeName_TeamName_Submission_v2.pptx
+outputs/CollegeName_TeamName_Submission_v3.pptx
+outputs/GuideRail_Submission_Package.zip

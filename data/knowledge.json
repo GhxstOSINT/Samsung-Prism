@@ -1,0 +1,108 @@
+[
+  {
+    "id":"kb_battery_drain","domain":"Battery","title":"Battery Fast Drain","canonical_query":"battery drains quickly during normal use","symptoms":["battery drain","battery dies fast","short battery life","background battery use"],
+    "paraphrases":["My battery dies too fast","The phone loses charge quickly","Battery life became very short","Why is my Galaxy draining overnight","Charge drops even when unused","Phone battery is running down fast","Battery percentage falls rapidly","Normal use empties the battery"],
+    "reference_text":"Open Settings. Tap Battery. Open Battery usage details and review apps using the most battery. Return to Battery and open Power saving. Choose a suitable power saving mode. Restart the phone after saving changes.",
+    "actions":[
+      {"action_name":"Battery Usage Details","description":"It will identify heavy battery consumers","category":"auto","deeplink_id":"battery_usage","steps":["Open Settings.","Tap Battery.","Open Battery usage details.","Review apps using the most battery."]},
+      {"action_name":"Power Saving Settings","description":"It will reduce background battery consumption","category":"auto","deeplink_id":"power_saving","steps":["Return to Battery.","Open Power saving.","Choose a suitable power saving mode."]},
+      {"action_name":"Device Restart Procedure","description":"It will apply saved battery changes","category":"critical","deeplink_id":"device_care","steps":["Restart the phone after saving changes."]}
+    ]
+  },
+  {
+    "id":"kb_screen_flicker","domain":"Display","title":"Screen Flicker","canonical_query":"display flickers during scrolling or low brightness","symptoms":["screen flicker","display flashes","brightness flickers","screen blinking"],
+    "paraphrases":["My screen keeps flickering","The display flashes while scrolling","Screen blinks at low brightness","Galaxy display is unstable","The panel flickers in apps","Brightness keeps pulsing","Phone screen flashes randomly","Display flicker started recently"],
+    "reference_text":"Open Display settings. Tap Adaptive brightness and turn it off temporarily. Set brightness to the middle level. Open Motion smoothness. Choose Standard and observe the display. Restart the phone if flickering continues.",
+    "actions":[
+      {"action_name":"Display Brightness Settings","description":"It will isolate automatic brightness changes","category":"auto","deeplink_id":"display_brightness","steps":["Open Display settings.","Tap Adaptive brightness.","Turn Adaptive brightness off temporarily.","Set brightness to the middle level."]},
+      {"action_name":"Motion Smoothness Settings","description":"It will test refresh rate stability","category":"auto","deeplink_id":"motion_smoothness","steps":["Open Motion smoothness.","Choose Standard.","Observe the display."]},
+      {"action_name":"Device Restart Procedure","description":"It will reload the display system","category":"critical","deeplink_id":"device_care","steps":["Restart the phone if flickering continues."]}
+    ]
+  },
+  {
+    "id":"kb_camera_blur","domain":"Camera","title":"Camera Image Blur","canonical_query":"camera photos remain blurry in normal lighting","symptoms":["camera blur","blurry photos","camera cannot focus","soft pictures"],
+    "paraphrases":["My camera photos are blurry","The camera will not focus","Pictures look soft in daylight","Galaxy camera focus keeps hunting","Photos are suddenly unclear","Camera image stays fuzzy","Rear camera takes blurred photos","Normal photos lack sharpness"],
+    "reference_text":"Open Camera settings. Turn Scene optimizer off and on. Reset Camera settings if focus remains unstable. Wipe the camera lens with a clean dry microfiber cloth. Remove any lens protector that covers the camera.",
+    "actions":[
+      {"action_name":"Camera Optimization Settings","description":"It will refresh camera processing options","category":"auto","deeplink_id":"camera_settings","steps":["Open Camera settings.","Turn Scene optimizer off.","Turn Scene optimizer on.","Reset Camera settings if focus remains unstable."]},
+      {"action_name":"Camera Lens Inspection","description":"It will remove physical focus obstruction","category":"manual","deeplink_id":"camera_settings","steps":["Wipe the camera lens with a clean dry microfiber cloth.","Remove any lens protector that covers the camera."]}
+    ]
+  },
+  {
+    "id":"kb_slow_update","domain":"Performance","title":"Slow After Update","canonical_query":"device performance slow after software update","symptoms":["slow after update","lag after update","apps open slowly","performance degraded"],
+    "paraphrases":["My phone became slow after updating","Apps lag since the software update","Galaxy performance dropped after update","The new update made everything sluggish","Phone takes longer to open apps","Scrolling lags after system update","Device is slow since yesterday's update","Recent firmware caused performance issues"],
+    "reference_text":"Open Device care. Tap Optimize now and wait for completion. Open Memory. Review memory use and tap Clean now. Restart the device after optimization completes.",
+    "actions":[
+      {"action_name":"Device Care Optimization","description":"It will resolve common performance bottlenecks","category":"auto","deeplink_id":"device_care","steps":["Open Device care.","Tap Optimize now.","Wait for optimization to complete."]},
+      {"action_name":"Memory Usage Settings","description":"It will release unused application memory","category":"auto","deeplink_id":"memory_settings","steps":["Open Memory.","Review memory use.","Tap Clean now."]},
+      {"action_name":"Device Restart Procedure","description":"It will reload optimized system services","category":"critical","deeplink_id":"device_care","steps":["Restart the device after optimization completes."]}
+    ]
+  },
+  {
+    "id":"kb_wifi_disconnect","domain":"Performance","title":"Wi Fi Disconnections","canonical_query":"wifi connection disconnects repeatedly","symptoms":["wifi disconnect","wireless drops","internet disconnects","wifi unstable"],
+    "paraphrases":["Wi-Fi keeps dropping","My phone disconnects from wireless","Internet cuts out on Wi-Fi","Galaxy Wi-Fi is unstable","Wireless reconnects repeatedly","Wi-Fi stops during calls","The network connection keeps disappearing","Phone loses Wi-Fi every few minutes"],
+    "reference_text":"Open Wi-Fi settings. Select the connected network and tap Forget. Connect to the network again. Open Intelligent Wi-Fi settings. Turn Switch to mobile data off while testing. Restart the router manually if other devices also disconnect.",
+    "actions":[
+      {"action_name":"Wi Fi Network Settings","description":"It will refresh saved network credentials","category":"auto","deeplink_id":"wifi_settings","steps":["Open Wi-Fi settings.","Select the connected network.","Tap Forget.","Connect to the network again."]},
+      {"action_name":"Intelligent Wi Fi Settings","description":"It will prevent automatic network switching","category":"auto","deeplink_id":"intelligent_wifi","steps":["Open Intelligent Wi-Fi settings.","Turn Switch to mobile data off while testing."]},
+      {"action_name":"Router Restart Procedure","description":"It will refresh the wireless connection","category":"manual","deeplink_id":"wifi_settings","steps":["Restart the router manually if other devices also disconnect."]}
+    ]
+  },
+  {
+    "id":"kb_bluetooth_disconnect","domain":"Performance","title":"Bluetooth Disconnections","canonical_query":"bluetooth accessory disconnects repeatedly","symptoms":["bluetooth disconnect","earbuds disconnect","watch disconnects","audio drops"],
+    "paraphrases":["My earbuds keep disconnecting","Bluetooth audio drops out","The watch loses connection","Galaxy Bluetooth reconnects repeatedly","Wireless headphones cut out","Bluetooth device will not stay paired","Accessory connection is unstable","Audio stops over Bluetooth"],
+    "reference_text":"Open Bluetooth settings. Select the paired accessory and tap Unpair. Scan and pair the accessory again. Charge the accessory before testing. Restart the phone if disconnections continue.",
+    "actions":[
+      {"action_name":"Bluetooth Pairing Settings","description":"It will rebuild the accessory pairing","category":"auto","deeplink_id":"bluetooth_settings","steps":["Open Bluetooth settings.","Select the paired accessory.","Tap Unpair.","Scan for the accessory.","Pair the accessory again."]},
+      {"action_name":"Accessory Charge Inspection","description":"It will rule out low power","category":"manual","deeplink_id":"bluetooth_settings","steps":["Charge the accessory before testing."]},
+      {"action_name":"Device Restart Procedure","description":"It will reload Bluetooth system services","category":"critical","deeplink_id":"device_care","steps":["Restart the phone if disconnections continue."]}
+    ]
+  },
+  {
+    "id":"kb_overheating","domain":"Performance","title":"Device Overheating","canonical_query":"device becomes hot during normal use","symptoms":["phone overheat","device hot","temperature warning","phone heating"],
+    "paraphrases":["My phone gets very hot","Galaxy heats up during normal use","The device shows a temperature warning","Phone becomes warm while idle","Battery area feels hot","Device overheats in simple apps","Phone temperature rises quickly","The handset is unusually hot"],
+    "reference_text":"Open Device care diagnostics. Review battery and application status. Close the application using the most resources. Disconnect the charger and remove the case. Move the device to a cool shaded place. Stop using the device if a temperature warning appears.",
+    "actions":[
+      {"action_name":"Device Care Diagnostics","description":"It will identify resource intensive applications","category":"auto","deeplink_id":"thermal_device_care","steps":["Open Device care diagnostics.","Review battery and application status.","Close the application using the most resources."]},
+      {"action_name":"Device Cooling Procedure","description":"It will lower the device temperature","category":"manual","deeplink_id":"thermal_device_care","steps":["Disconnect the charger.","Remove the case.","Move the device to a cool shaded place."]},
+      {"action_name":"Temperature Warning Response","description":"It will prevent heat related damage","category":"critical","deeplink_id":"thermal_device_care","steps":["Stop using the device if a temperature warning appears."]}
+    ]
+  },
+  {
+    "id":"kb_notifications","domain":"Performance","title":"Missing App Notifications","canonical_query":"application notifications do not appear","symptoms":["notifications missing","alerts not showing","no notification","messages silent"],
+    "paraphrases":["App notifications are not appearing","I get no message alerts","Notifications stopped for one app","Galaxy does not show alerts","Messages arrive without notifications","An app stays silent","Notification banner is missing","I only see messages after opening the app"],
+    "reference_text":"Open app notification settings. Select the affected application. Turn Allow notifications on. Review notification categories and enable the required category. Open Battery settings for the application and choose Optimized.",
+    "actions":[
+      {"action_name":"Application Notification Settings","description":"It will restore allowed application alerts","category":"auto","deeplink_id":"notification_settings","steps":["Open app notification settings.","Select the affected application.","Turn Allow notifications on.","Review notification categories.","Enable the required category."]},
+      {"action_name":"Application Battery Settings","description":"It will permit timely background delivery","category":"auto","deeplink_id":"app_info","steps":["Open Battery settings for the application.","Choose Optimized."]}
+    ]
+  },
+  {
+    "id":"kb_app_crash","domain":"Performance","title":"Application Crashes","canonical_query":"application closes unexpectedly during use","symptoms":["app crash","application closes","app freezes","application stops"],
+    "paraphrases":["An app keeps crashing","The application closes by itself","App freezes and returns home","Galaxy app stops unexpectedly","The app will not stay open","Application crashes on launch","One app hangs repeatedly","App exits during normal use"],
+    "reference_text":"Open application information. Tap Force stop and open the application again. Open Storage and tap Clear cache. Update the application from its trusted application store. Restart the phone if the crash continues.",
+    "actions":[
+      {"action_name":"Application Information Settings","description":"It will restart the affected application","category":"auto","deeplink_id":"app_info","steps":["Open application information.","Tap Force stop.","Open the application again.","Open Storage.","Tap Clear cache."]},
+      {"action_name":"Application Update Check","description":"It will install available stability fixes","category":"manual","deeplink_id":"app_info","steps":["Update the application from its trusted application store."]},
+      {"action_name":"Device Restart Procedure","description":"It will reload shared system services","category":"critical","deeplink_id":"device_care","steps":["Restart the phone if the crash continues."]}
+    ]
+  },
+  {
+    "id":"kb_touch_response","domain":"Display","title":"Touch Response Problems","canonical_query":"touchscreen misses taps or gestures","symptoms":["touch unresponsive","missed taps","screen ignores touch","gesture wrong"],
+    "paraphrases":["The screen ignores some taps","Touch gestures are unreliable","My touchscreen misses input","Galaxy does not respond to swipes","Taps register slowly","The screen protector affects touch","Touch response became inconsistent","Some areas do not react to touch"],
+    "reference_text":"Open Display settings. Turn Touch sensitivity on when using a screen protector. Remove the screen protector temporarily and test the screen. Wipe the screen with a clean dry cloth. Restart the phone if touch remains unresponsive.",
+    "actions":[
+      {"action_name":"Touch Sensitivity Settings","description":"It will improve protected screen response","category":"auto","deeplink_id":"touch_sensitivity","steps":["Open Display settings.","Turn Touch sensitivity on when using a screen protector."]},
+      {"action_name":"Touchscreen Surface Inspection","description":"It will remove physical touch interference","category":"manual","deeplink_id":"touch_sensitivity","steps":["Remove the screen protector temporarily.","Test the screen.","Wipe the screen with a clean dry cloth."]},
+      {"action_name":"Device Restart Procedure","description":"It will reload touchscreen system services","category":"critical","deeplink_id":"device_care","steps":["Restart the phone if touch remains unresponsive."]}
+    ]
+  },
+  {
+    "id":"kb_navigation_swipe","domain":"Display","title":"Swipe Navigation Settings","canonical_query":"swipe navigation moves in wrong direction after application install","symptoms":["swipe wrong direction","gesture navigation broken","navigation swipes vertical","swipe gesture changed"],
+    "paraphrases":["Swiping moves the wrong way","Navigation gestures broke after an app install","My phone scrolls vertically instead of sideways","Galaxy swipe navigation changed direction","Horizontal swipes register as vertical","Gesture navigation is behaving incorrectly","An installed app changed swipe behavior","I cannot swipe sideways anymore"],
+    "reference_text":"Navigate to and open Settings. Tap Display. Tap Navigation bar. Select your preferred navigation type between Buttons and Swipe gestures. Turn Gesture hint on to display guidance lines at the bottom of the screen.",
+    "actions":[
+      {"action_name":"Navigation Bar Settings","description":"It will restore preferred navigation behavior","category":"auto","deeplink_id":"navigation_bar","steps":["Open Settings.","Tap Display.","Tap Navigation bar.","Select your preferred navigation type between Buttons and Swipe gestures.","Turn Gesture hint on to display guidance lines at the bottom of the screen."]}
+    ]
+  }
+]

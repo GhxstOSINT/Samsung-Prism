@@ -1,0 +1,14 @@
+{
+  "dataset": "synthetic_demo_v1",
+  "limitations": "Illustrative benchmark only. Replace with official held-out assets before submission.",
+  "scenarios": 33,
+  "top1_plan_accuracy": 1.0,
+  "schema_validity": 1.0,
+  "catalog_deeplink_validity": 1.0,
+  "latency_ms": {
+    "p50": 0.09,
+    "p95": 0.22,
+    "max": 1.504
+  },
+  "cache_entries": 99
+}

@@ -1,0 +1,9 @@
+.git
+.impeccable
+work
+outputs
+__pycache__
+*.pyc
+*.pptx
+*.docx
+*.pdf
