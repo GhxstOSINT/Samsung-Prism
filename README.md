@@ -4,6 +4,10 @@ GuideRail is a complete, configurable Track 2 application foundation for the Sam
 
 Repository: https://github.com/GhxstOSINT/Samsung-Prism
 
+Final submission deck: [`outputs/CollegeName_TeamName_Submission_v5.pptx`](outputs/CollegeName_TeamName_Submission_v5.pptx)
+
+Complete submission archive: [`outputs/GuideRail_Full_Model_Package_v5.zip`](outputs/GuideRail_Full_Model_Package_v5.zip)
+
 The application supports two runtime modes:
 
 1. **Two-stage model mode** — a configured OpenAI-compatible model first structures issues and query variations, then proposes a plan using only retrieved evidence and candidate catalog entries.
