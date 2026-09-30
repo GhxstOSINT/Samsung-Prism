@@ -147,13 +147,3 @@ Or use `docker compose up --build`. The image runs as a non-root user and includ
 ## Current data boundary
 
 The files currently under `data/` are masked synthetic demonstration fixtures: 11 reference plans and 15 deeplinks. They exist to make the full application testable without misrepresenting organizer data. The engine and import pipeline are ready for the official 10k+ scenario corpus, but the official corpus and final held-out results cannot be manufactured from the theme guide.
-
-## Required final submission actions
-
-- Load and validate the official starter package.
-- Reproduce every organizer sample as a regression test.
-- Select and configure the permitted model endpoint.
-- Run the official held-out benchmark and replace synthetic figures in submission materials.
-- Add team, college, GitHub, and demo links.
-- Record the unedited demonstration of five minutes or less.
-- Create release tag `PRISM_GENAI_HACKATHON_Y2026` on the judged commit.
